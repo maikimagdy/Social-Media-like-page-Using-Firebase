@@ -12,7 +12,7 @@ function Navbar() {
   };
 
   return (
-    <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-2 bg-cyan-500 p-3 rounded-md shadow-lg">
+    <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-2 bg-cyan-500 p-4 rounded-md shadow-lg">
       {!user ? (
         <Link
           className="text-white w-full shadow-lg p-4 text-center rounded-md cursor-pointer hover:bg-gray-400 transition duration-200 ease-in-out"
