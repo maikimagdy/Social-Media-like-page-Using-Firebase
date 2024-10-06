@@ -65,7 +65,7 @@ function PostShow({ post }) {
       <p>{post.description}</p>
       <button
         onClick={hasUserLiked ? removeLike : addLike}
-        className="text-xl w-fit self-center"
+        className="text-xl w-fit self-start"
       >
         <p title={hasUserLiked ? "DisLike" : "Like"}>
           {" "}
