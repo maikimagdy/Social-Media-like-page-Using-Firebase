@@ -17,8 +17,10 @@ function Home() {
     getPosts();
   }, []);
   return (
-    <div className="h-60">
-      <div className="m-2  text-center ">Welcome Home Page....</div>
+    <div>
+      <div className="m-2 text-center ">
+        {!user && "Welcome Home Page Sign In To Show Posts...."}
+      </div>
       {user && (
         <div className="flex gap-7 p-4 flex-col">
           {postsList?.map((post) => (

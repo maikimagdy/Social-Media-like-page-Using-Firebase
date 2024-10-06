@@ -60,7 +60,7 @@ function PostShow({ post }) {
     );
   };
   return (
-    <div className="shadow-lg bg-slate-600 p-3 h-60  flex-col flex gap-8 text-white rounded-lg">
+    <div className="shadow-lg bg-slate-600 p-3  flex-col flex gap-8 text-white rounded-lg">
       <h1>{post.title}</h1>
       <p>{post.description}</p>
       <button
