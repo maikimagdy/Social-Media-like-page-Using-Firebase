@@ -23,7 +23,7 @@ function Navbar() {
           className="text-white w-full shadow-lg p-4 text-center rounded-md cursor-pointer hover:bg-gray-400 transition duration-200 ease-in-out"
           to={"/login"}
         >
-          Go to Login Page
+          Login Page
         </Link>
       ) : (
         <Link
@@ -37,7 +37,7 @@ function Navbar() {
         className="text-white w-full p-4 text-center rounded-md cursor-pointer shadow-lg hover:bg-gray-400 transition duration-200 ease-in-out"
         to={"/"}
       >
-        Go to Home Page
+        Home Page
       </Link>
       {user && (
         <div className="flex flex-col items-center text-white w-full">
