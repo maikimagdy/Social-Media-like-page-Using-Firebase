@@ -18,7 +18,7 @@ function Login() {
         onClick={SignInFun}
         className="text-white bg-slate-500 p-2 m-3 hover:bg-slate-400 rounded-lg cursor-pointer"
       >
-        Sign In with GooGle{" "}
+        Sign In with google
       </button>
     </div>
   );
