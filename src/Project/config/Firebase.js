@@ -4,6 +4,7 @@ import {
   GoogleAuthProvider,
   setPersistence,
   browserSessionPersistence,
+  EmailAuthProvider,
 } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
@@ -33,3 +34,4 @@ setPersistence(auth, browserSessionPersistence)
   .catch((error) => {
     console.error("Error setting session persistence:", error);
   });
+export const EmailauthProvider = new EmailAuthProvider();

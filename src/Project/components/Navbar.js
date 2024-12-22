@@ -23,7 +23,7 @@ function Navbar() {
           className="text-white w-full shadow-lg p-4 text-center rounded-md cursor-pointer hover:bg-gray-400 transition duration-200 ease-in-out"
           to={"/login"}
         >
-          Login Page
+          Login With Google
         </Link>
       ) : (
         <Link
@@ -31,6 +31,14 @@ function Navbar() {
           to={"/createpost"}
         >
           Create A Post
+        </Link>
+      )}
+      {!user && (
+        <Link
+          to="/loginemail"
+          className="text-white w-full p-4 text-center rounded-md cursor-pointer shadow-lg hover:bg-gray-400 transition duration-200 ease-in-out"
+        >
+          Login with email{" "}
         </Link>
       )}
       <Link
